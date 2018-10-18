@@ -27,7 +27,7 @@ Once downloaded unzip the files in the same folder and open index.html file with
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Mocha tests in progress...
 
 ### Break down into end to end tests
 
@@ -51,7 +51,7 @@ If you wish to contribute submit a pull request.
 
 ## Versioning
 
-For the versions available, see the tags on this repository [tags on this repository](https://github.com/djarmengod/JS_DateDifference/tags). 
+For the versions available, see the tags on this repository [tags on this repository](https://github.com/djarmengod/JS_DateDifference/tags).
 
 ## Authors
 
@@ -64,4 +64,3 @@ See also the list of [contributors](https://github.com/your/project/contributors
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-
