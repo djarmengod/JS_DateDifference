@@ -25,6 +25,25 @@ Click on Clone or download button and press Download ZIP.
 Once downloaded unzip the files in the same folder and open index.html file with a compatible web browser.
 ```
 
+## Usage instructions
+
+Once you open the index.html web page on the browser.
+
+1. Enter two pair of dates in the text box with this format: "DD MM YYYY, DD MM YYYY".
+```
+*Note: You can enter more than one just by adding a new line.
+```
+2. Click on the Calculate button to process the difference between the dates.
+
+3. The result will be displayed below in this format: "DD MM YYYY, DD MM YYYY, difference", being difference the days between the dates entered.
+```
+*Note: If you entered only one pair of dates (just one line of dates), the result would appear as X days as well.
+```
+4. In case there were any errors, it will appear the corresponding error message instead of the difference days.
+```
+*Note: In case you entered only one pair of dates (just one line of dates) and there were any errors, the error message will be displayed at the bottom with red letters.
+```
+
 ## Running the tests
 
 The unit tests have been done by using QUnit JS Unit Testing framework. To run the tests open the file tests.html inside the folder.
