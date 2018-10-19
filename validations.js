@@ -29,7 +29,7 @@ function dateDifference(p_dates) {
 
   //Check input format "DD MM YYYY, DD MM YYYY, " for p_dates
   //1. Length must be 22 positions.
-  if (dates.length != 22) {
+  if ( (dates.length != 22) || (dates.substr(10, 2) != ", ") ) {
     resp.error = "Date input must have this format \"DD MM YYYY, DD MM YYYY\".";
     return resp;
   }
