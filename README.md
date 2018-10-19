@@ -27,14 +27,28 @@ Once downloaded unzip the files in the same folder and open index.html file with
 
 ## Running the tests
 
-Mocha tests in progress...
+The unit tests have been done by using QUnit JS Unit Testing framework. To run the tests open the file tests.html inside the folder.
 
-### Break down into end to end tests
+Use this URL to run the tests: https://htmlpreview.github.io/?https://github.com/djarmengod/JS_DateDifference/blob/master/tests.html
 
-Explain what these tests test and why
+
+### JS_DateDifference Unit Tests (validations.js)
+
+The validations.js has been modified to make it unit testable.
+There have been created the necessary tests for each function in the file.
 
 ```
-Give an example
+1. dateDifference(p_dates) Test:
+  Tests the input data is correct and checks the input sample data is correct.
+
+2.validateDateFormat(p_date) test
+  Tests the input format of the data => "DD MM YYYY, DD MM YYYY".
+
+3.daysInMonth(p_year,p_month) test
+  Tests the days in the month for the given year is correct.
+
+4.isLeapYear(p_year) test
+  Tests if the year entered is a leap year.
 ```
 
 ## Deployment
@@ -44,6 +58,7 @@ Copy all the files into the web server of choice.
 ## Built With
 
 * [Atom](https://ide.atom.io/) - The web IDE used
+* [QUnit](https://qunitjs.com/) - The JavaScript Unit Testing framework used
 
 ## Contributing
 
